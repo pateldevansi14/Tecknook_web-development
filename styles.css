@@ -1,0 +1,98 @@
+.container {
+    border-radius: 50px;
+    margin: 78px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    background: rgb(236, 171, 180);
+
+}
+
+body {
+    background: linear-gradient(90deg, #fabac7 0%, #c1c8e9 100%);
+}
+
+.container h3 {
+    text-align: center;
+    font-family:fantasy;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+form {
+    margin: 20px;
+    padding: 10px;
+}
+
+form .lebels {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.container input
+{
+    font-family: cursive;
+    outline:none;
+}
+
+.feilds {
+    margin: 10px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 4px solid #4c956c;
+}
+
+.feilds:hover {
+    cursor: pointer;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 0.2s;
+}
+
+
+form #submitbtn {
+    margin: 2px 115px;
+    font-size: 18px;
+    width: 200px;
+    color: white;
+    background: linear-gradient(90deg, hsla(303, 79%, 76%, 1) 0%, hsla(360, 86%, 67%, 1) 100%);
+}
+
+form #resetbtn {
+    margin: 2px 115px;
+    font-size: 18px;
+    width: 200px;
+    color: white;
+    background: linear-gradient(90deg, hsla(303, 79%, 76%, 1) 0%, hsla(360, 86%, 67%, 1) 100%);
+}
+
+form #submitbtn:hover {
+    transition: 0.2s;
+    font-weight: bold;
+    background: linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+}
+
+form #resetbtn:hover {
+    font-weight: bold;
+    transition: 0.2s;
+    background: linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+}
+
+@keyframes rohan {
+    form {
+        border-bottom: 4px solid #4c956c;
+    }
+
+    to {
+        border-bottom: 4px solid #ef233c;
+    }
+}
+
+fieldset #gender {
+    font-family: cursive;
+    font-weight: bold;
+}
